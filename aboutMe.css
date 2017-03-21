@@ -10,7 +10,9 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #F2F1ED;
-    background-image: 20 width
+    background-image: 20 width;
+    background-size: cover;
+    overflow:overlay
 }
 /*Background 1 end*/
 
@@ -18,6 +20,7 @@ body {
 .bg-1 img {
     width: 300px;
     height: 300px;
+   background-size: cover;
 }
 /*Background 2*/
 .bg-2 { 
@@ -25,6 +28,8 @@ body {
     color: #ffffff;
     width: 100%;
     height: 100vh;
+   background-size: cover;
+   overflow:overlay
 }
 
 .bg-2 .jumbotron {
@@ -32,9 +37,14 @@ body {
 }
 
 .bg-2 h3 {
+    display:inline;
     border-style: solid;
-    width: 150px;
-    height: 35px;
+    text-align: center;
+    color: #474e5d;
+    font-weight: 900; 
+}
+.bg-2 p {
+     border-left: thick solid #474e5d;
 }
 
 /*Background 2 End*/
@@ -46,12 +56,18 @@ body {
     color: #555555;
     width: 100%;
     height: 100vh;
+    background-size: cover;
+    overflow:overlay
 }
 /*Image size for bg3 pics*/
 .bg-3 img {
     max-width: 250px;
     height: 250px;
     border-radius: 40px
+
+}
+.bg-3 p {
+    border-left: thick solid #474e5d;
 }
 /*Image size for bg3 end*/
 
