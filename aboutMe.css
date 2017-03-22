@@ -1,6 +1,8 @@
-/*Fonts*/
+Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 @import url('https://fonts.googleapis.com/css?family=Orbitron|Paytone+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 /*Fonts end*/
 body {
   font-family: 'Paytone One', sans-serif;
@@ -10,14 +12,22 @@ body {
 
 /*Background 1*/
 .bg-1 {
-    
+   
     width: 100%;
     height: 100vh;
-    background-color: #F2F1ED;
+   /* background-color: #F2F1ED;*/
+   background: url(Images/mac.jpg);
     background-image: 20 width;
     background-size: cover;
     overflow:overlay
 
+}
+.bg-1 h1, h2 {
+     font-size: 50px;
+    font-family: 'Satisfy', cursive;
+
+   color: #F2F1ED
+  
 }
 /*Background 1 end*/
 
@@ -28,7 +38,8 @@ body {
 }
 /*Background 2*/
 .bg-2 { 
-    background-color: #474e5d; /* Dark Blue */
+
+    background-color:#F2F1ED; /* Dark Blue */
     color: #ffffff;
     /*width: 100%;
     height: 100vh;*/
@@ -37,10 +48,10 @@ body {
    overflow:overlay
 }
 
-.bg-2 .jumbotron {
+/*.bg-2 .jumbotron {
     background-color: #E79D83;
 }
-
+*/
 .bg-2 h3 {
     display:inline;
     border-style: solid;
@@ -50,6 +61,10 @@ body {
 }
 .bg-2 p {
      border-left: thick solid #F2F1ED;
+     color: black;
+}
+.bg-2 h2 {
+    color: black;
 }
 .bg-2 img {
     max-width: 200px;
@@ -62,9 +77,45 @@ body {
 
 /*Background 2 End*/
 
-
-/*Background 3*/
+/*Background 3 */
 .bg-3 { 
+    background-color: #CACACC; /* Dark Blue */
+    color: #F2F1ED;
+    /*width: 100%;
+    height: 100vh;*/
+    background-repeat:repeat;
+   background-size: cover;
+   overflow:overlay
+}
+/*
+.bg-3 .jumbotron {
+    background-color: #E79D83;
+}
+*/
+.bg-3 h3 {
+    display:inline;
+    border-style: solid;
+    text-align: center;
+    color: #2E344A;
+    font-weight: 900; 
+}
+.bg-3 p {
+
+     border-left: thick solid black;
+     color: black;
+     border-spacing: 200px
+}
+.bg-3 img {
+    max-width: 200px;
+    height: 150px;
+    border-radius: 40px
+}
+.bg-3 b {
+    color: #2E344A;
+}
+/*Background 3 end*/
+/*Background 4*/
+.bg-4 { 
    background-color: #F2F1ED;
     color: #555555;
    /* width: 100%;
@@ -74,28 +125,37 @@ body {
     overflow:overlay
 }
 /*Image size for bg3 pics*/
-.bg-3 img {
+.bg-4 img {
     max-width: 250px;
     height: 250px;
     border-radius: 40px
 
 }
-.bg-3 p {
+.bg-4 h1 {
+    display:inline;
+    border-style: solid;
+    text-align: center;
+}
+.bg-4 p {
+
     border-left: thick solid #474e5d;
+     padding-left:30px
     color: #2E344A;
+      font-size: 20px
+
 }
 
 #bg3headers {
     color: #2E344A;
 }
 
-/*Image size for bg3 end*/
+/*Image size for bg end*/
 
 /*Indent*/
 span {
     margin-left: 50px
 }
-/*Background 3 end*/
+/*Background 4 end*/
 
 /*Containerr*/
 .container-fluid {
@@ -113,17 +173,19 @@ nav img {
 
 .navbar-fixed-top{
     border-radius: 0;
+
 }
 .navbar {
   /*  padding-top: 10px;
     padding-bottom: 10px;*/
+
     padding:0;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
     font-size: 15px;
     letter-spacing: 3px;
-     background-color: #474e5d;
+     background-color: #FFA639;
      min-height:40px !important
      top: 0;
     left: 0;
@@ -138,8 +200,11 @@ nav img {
 
 /*Navbar brand*/
 .navbar-default .navbar-brand {
+    font-family: 'Lobster', cursive;
     color: white;
-    font-style: 15px;
+    font-weight: 900;
+    font-size: 25px;
+
     }
 /*Navbar brand end*/
 
@@ -149,7 +214,6 @@ nav img {
     line-height: 40px;
      padding-top:0.1px !important; padding-bottom:0.1px !important;
     padding: 9px 10px 11px;
-    text-decoration: none;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     color: white  
 
@@ -161,6 +225,12 @@ nav img {
     color: #1abc9c !important;
 }
 
+footer h2 {
+    color: black
+}
+footer {
+     font-family: 'Satisfy', cursive;
+}
 
 /*Navbar hover end*/
 
@@ -168,4 +238,4 @@ nav img {
 
 /*Footer*/
 
-/*Footer End*/
+/*Footer End
